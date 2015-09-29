@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/header"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_spotify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:onClick="onClick_btn_spotify"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/spotifyStreamer"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_scores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:onClick="onClick_btn_scores"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/scoresApp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_library"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:onClick="onClick_btn_library"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/libraryApp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_buildItBigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:onClick="onClick_btn_buildItBigger"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/buildItBigger"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_xyz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:onClick="onClick_btn_xyz"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/xyzReader"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_capstone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ff3c6f"
+            android:fontFamily="sans-serif-light"
+            android:onClick="onClick_btn_capstone"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/capstone"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>
